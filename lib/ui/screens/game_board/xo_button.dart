@@ -12,13 +12,14 @@ class XoButton extends StatelessWidget {
     return Expanded(
         child: Container(
       margin: EdgeInsets.all(4),
+      padding: EdgeInsets.all(8),
       child: ElevatedButton(
           onPressed: () {
             onClick(index);
           },
           child: Text(
             "$symbol",
-            style: TextStyle(fontSize: 26),
+            style: TextStyle(fontSize: 28, color: Colors.black),
           )),
     ));
   }

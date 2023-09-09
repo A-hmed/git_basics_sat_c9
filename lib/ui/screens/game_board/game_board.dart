@@ -11,7 +11,7 @@ class GameBoard extends StatefulWidget {
 
 class _GameBoardState extends State<GameBoard> {
   TextStyle playerNameStyle =
-      TextStyle(fontWeight: FontWeight.bold, fontSize: 30);
+      TextStyle(fontWeight: FontWeight.bold, fontSize: 26, color: Colors.blue);
 
   List<String> board = ["", "", "", "", "", "", "", "", ""];
   int counter = 0;
